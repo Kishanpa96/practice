@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Demo2') {
+            steps {
+                echo 'demo ke sath'
+            }
+        }
+        stage('tesing') {
+            steps {
+                echo 'Test hai rao'
+            }
+            steps {
+                echo 'test hai go'
+            }
+        }
+        stage('Delivery') {
+            steps {
+                echo 'kr do delivery'
+            }
+        }
+    }
+}
